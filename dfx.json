@@ -1,0 +1,10 @@
+{
+    "canisters": {
+        "test1": {
+            "main": "src/main1.mo"
+        },
+        "test2": {
+            "main": "src/main2.mo"
+        }
+    }
+}
