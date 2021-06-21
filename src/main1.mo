@@ -3,8 +3,8 @@ actor Test1 {
 
     public func add() : async Nat {
         a += 1 ;
-        let temp : actor { add : () -> async Nat; } = actor("ryjl3-tyaaa-aaaaa-aaaba-cai");
-        ignore await temp.add();
+        let temp : actor { add2 : () -> async Nat; } = actor("ryjl3-tyaaa-aaaaa-aaaba-cai");
+        ignore await temp.add2();
         assert(false);
         return a;
     };
