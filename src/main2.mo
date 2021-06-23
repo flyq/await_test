@@ -6,6 +6,12 @@ actor Test2 {
         return a;
     };
 
+    public func add2b() : async Nat {
+        a += 1;
+        assert(false);
+        return a;
+    };
+
     public query func get() : async Nat {
         return a;
     };
